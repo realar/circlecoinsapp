@@ -17,8 +17,8 @@ username_input = driver.find_element(By.NAME, "username")
 password_input = driver.find_element(By.NAME, "password")
 
 # Ввести логин и пароль
-username_input.send_keys("leva.dsgn")
-password_input.send_keys("Realartist99")
+username_input.send_keys()
+password_input.send_keys()
 
 # Нажать кнопку входа
 password_input.send_keys(Keys.ENTER)
